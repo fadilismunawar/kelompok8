@@ -86,17 +86,18 @@ body{
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: var(--primary);
+  background-color: #017001;
   border-radius: 20px;
   padding: 15px;
   font-size: 25px;
   margin: auto;
   width: 500px;
   font-weight: bold;
+  cursor: pointer;
 }
 .tombol:hover {
   transform: none;
-  background-color: green; 
+  background-color: var(--primary); 
 }
 
 #mapel{
@@ -134,7 +135,7 @@ body{
 .pilihan-mapel a{
   text-decoration: none;
   color: var(--white);
-  font-size: 30px;
+  font-size: 25px;
   transition: all 0.2s ease-in-out; 
   cursor: pointer;
   text-align: center;
@@ -142,10 +143,11 @@ body{
   margin: auto;
 }
 .pilihan-mapel a:hover{
-  font-size: 32px;
+  font-size: 27px;
   color: var(--secondary);
   margin: auto;
   border-radius: 12px;
+  text-align: center;
 }
 .div-mapel{
   background-color: #4e8a4e;
@@ -250,20 +252,22 @@ body{
   gap: 50px;
 }
 .poster summary{
-  font-size: 30px;
-  color: var(--white);
+  font-size: 22px;
   text-align: center;
+  color: var(--white);
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 .poster summary:hover{
-  font-size: 35px;
-  color : var(--secondary);
+  font-size: 23px;
+  color: var(--secondary);
 }
-.poster p{
-  color: var(--white);
-  font-size: 25px;
-  text-align: justify;
-  font-weight: bold;
+.poster details {
+  color: white;
+  font-size: 18px;
+  background-color: #417841;
+  padding: 20px;
+  border-radius: 10px;
 }
 .ket{
   color: var(--white);
@@ -292,27 +296,29 @@ body{
   text-align: center;
 }
 #bindo p{
-  font-size : 25px;
+  font-size : 20px;
   text-align: justify;
 }
 #bindo .lho-report{
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 #bindo summary{
   font-size: 25px;
   font-weight: bold;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 #bindo summary:hover{
-  font-size: 30px;
+  font-size: 27px;
   color: green;
 }
 .bindo-1 h2{
-  font-size: 35px;
+  font-size: 32px;
   text-align: justify;
 }
 .bindo-1 p{
+  text-indent: 50px;
   font-size: 25px;
   text-align: justify;
 }
@@ -335,10 +341,11 @@ body{
   font-size: 1px;
 }
 #binggris h2{
-  font-size: 35px;
+  font-size: 32px;
   text-align: center;
 }
 #binggris p{
+  text-indent: 50px;
   font-size: 25px;
   text-align: justify;
 }
@@ -346,9 +353,10 @@ body{
   font-size: 25px;
   font-weight: bold;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 #binggris summary:hover{
-  font-size: 30px;
+  font-size: 27px;
   color: green;
 }
  .report-text h2{
@@ -404,6 +412,7 @@ body{
   padding: 40px;
   border-radius: 20px;
   border-top: var(--primary);
+  padding-left: 70px;
 }
 .isi summary{
   font-size: 30px;
@@ -439,9 +448,6 @@ body{
 .images{
   width: 230px;
   height: auto;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
 }
 .product{
   display: grid;
@@ -586,8 +592,8 @@ footer h2{
   color: var(--secondary); 
   font-size: 22px;
 }
-.main-footer h2{
-  font-size: 25px; 
+.main-footer p{
+  font-size: 28px; 
   text-align: left;
 }
 .line-footer{
